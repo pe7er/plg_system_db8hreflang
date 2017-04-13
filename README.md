@@ -1,7 +1,7 @@
-#db8 HREFLang correction (for Joomla 3.x)
+# db8 HREFLang correction (for Joomla 3.x)
 This Joomla 3 system plugin corrects the Hreflang tag in your Joomla site.
 
-##The Hreflang tag
+## The Hreflang tag
 To determine the **Language + Locales** (target audiencce) of your website, the **Hreflang** tag is used 
 in the HTML source code of your website. 
 
@@ -11,7 +11,7 @@ You can have an English language website, but targeted at a specific area:
 * en-CA - English language for the Canadian area
 * en-AU - English language for the Australian area
 
-##Incorrect hreflang implementation
+## Incorrect hreflang implementation
 **Some language packs, like Arabic, have no valid Locale tag.** 
 If you have a Joomla website with the ar-AA Arabic language pack 
 and your using [Google Webmasters Tools](https://www.google.com/webmasters/tools/home)
@@ -39,11 +39,10 @@ then you might have had a warning about wrong hreflang tag.
 > with incorrect hreflang implementation.
 >	
 
-##Fix incorrect hreflang
+## Fix incorrect hreflang
 You can manually change the Hreflang tag in the **Language Pack** of your site **and** in the Extensions > Language > 
 **Content Language** of your site. However **next language pack update will be a problem**.
 
 This plugin replaces the set hreflang tag retrieved from your content language with a hreflang tag of your choosing.
 When a page is displayed the plugin looks in the HTML source for a language tag, e.g. ar-AA and replaces it with 
 the language tag of your preference (e.g. ar-EG for Arabic Language for Locale Egypt).
-
