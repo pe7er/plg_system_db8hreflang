@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<extension version="3.6" type="plugin" group="content" method="upgrade">
+<extension version="3" type="plugin" group="system" method="upgrade">
 	<name>PLG_SYSTEM_DB8HREFLANG</name>
 	<author>Peter Martin</author>
-	<creationDate>January 2017</creationDate>
+	<creationDate>April 2017</creationDate>
 	<copyright>Copyright (C) 2017 Peter Martin. All rights reserved.</copyright>
 	<license>GNU General Public License version 2 or later</license>
 	<authorEmail>joomla@db8.nl</authorEmail>
-	<authorUrl>www.db8.nl</authorUrl>
-	<version>0.0.1</version>
+	<authorUrl>www.db8.eu</authorUrl>
+	<version>0.0.9</version>
 	<description>PLG_SYSTEM_DB8HREFLANG_XML_DESCRIPTION</description>
 	<files>
 		<filename plugin="db8hreflang">db8hreflang.php</filename>
+		<folder>language</folder>
 	</files>
 	<config>
 		<fields name="params">
@@ -37,4 +38,11 @@
 			</fieldset>
 		</fields>
 	</config>
+
+	<updateservers>
+		<server type="extension" priority="1" name="plg_system_db8hreflang">
+			https://db8.eu/index.php?option=com_rdsubs&amp;view=updater&amp;format=xml&amp;element=plg_system_db8hreflang
+		</server>
+	</updateservers>
+
 </extension>

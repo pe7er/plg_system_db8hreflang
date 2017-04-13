@@ -1,12 +1,12 @@
 <?php
 /**
  * @package     Joomla.Plugin
- * @subpackage  Content.db8hreflang
+ * @subpackage  db8hreflang
  *
  * @author     Peter Martin
- * @copyright  Copyright 2016 Peter Martin. All rights reserved.
+ * @copyright  Copyright 2016-2017 Peter Martin. All rights reserved.
  * @license    GNU Public License version 3 or later
- * @link       https://db8.nl
+ * @link       https://db8.eu
  */
 
 defined('_JEXEC') or die;
