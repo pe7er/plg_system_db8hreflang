@@ -7,11 +7,12 @@
 	<license>GNU General Public License version 2 or later</license>
 	<authorEmail>joomla@db8.nl</authorEmail>
 	<authorUrl>www.db8.eu</authorUrl>
-	<version>0.0.9</version>
+	<version>1.0.0</version>
 	<description>PLG_SYSTEM_DB8HREFLANG_XML_DESCRIPTION</description>
 	<files>
 		<filename plugin="db8hreflang">db8hreflang.php</filename>
 		<folder>language</folder>
+		<folder>assets</folder>
 	</files>
 	<config>
 		<fields name="params">
@@ -40,8 +41,8 @@
 	</config>
 
 	<updateservers>
-		<server type="extension" priority="1" name="plg_system_db8hreflang">
-			https://db8.eu/index.php?option=com_rdsubs&amp;view=updater&amp;format=xml&amp;element=plg_system_db8hreflang
+		<server type="extension" priority="1" name="db8hreflang">
+			https://db8.eu/index.php?option=com_rdsubs&amp;view=updater&amp;format=xml&amp;element=db8hreflang
 		</server>
 	</updateservers>
 
