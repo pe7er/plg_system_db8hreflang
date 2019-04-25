@@ -2,12 +2,12 @@
 <extension version="3" type="plugin" group="system" method="upgrade">
 	<name>PLG_SYSTEM_DB8HREFLANG</name>
 	<author>Peter Martin</author>
-	<creationDate>April 2017</creationDate>
-	<copyright>Copyright (C) 2017 Peter Martin. All rights reserved.</copyright>
+	<creationDate>April 2019</creationDate>
+	<copyright>Copyright (C) 2017-2019 Peter Martin. All rights reserved.</copyright>
 	<license>GNU General Public License version 2 or later</license>
 	<authorEmail>joomla@db8.nl</authorEmail>
 	<authorUrl>www.db8.eu</authorUrl>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 	<description>PLG_SYSTEM_DB8HREFLANG_XML_DESCRIPTION</description>
 	<files>
 		<filename plugin="db8hreflang">db8hreflang.php</filename>

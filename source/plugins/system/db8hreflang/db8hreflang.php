@@ -18,11 +18,23 @@ defined('_JEXEC') or die;
  */
 class PlgSystemDb8hreflang extends JPlugin
 {
+	/**
+	 * Application object.
+	 *
+	 * @var    JApplicationCms
+	 * @since  3.8.0
+	 */
 	protected $app;
 
+	/**
+	 * Replace Language Code for another after rendering the Page
+	 *
+	 * @return void
+	 */
 	public function onAfterRender()
 	{
-		if($this->app->isSite()){
+		if ($this->app->isSite())
+		{
 			$body = $this->app->getBody();
 
 			$findCountry = substr($this->params->get("find_language"), 0, 2);
